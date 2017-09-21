@@ -5,6 +5,7 @@ to show graphics in a repl, or maybe in logs.
 
 ## Usage
 
+```
 (require '[replchart.core :refer [bar-chart mini-bar-chart xy-chart])
 
 replchart.core=> (println (bar-chart [[2 4] [4 8] [5 3] [8 6]]))
@@ -42,6 +43,7 @@ nil
 replchart.core=> (println (mini-bar-chart (repeatedly 10 rand)))
 ▃ ▅ ▇ ▅ ▃ ▂ ▄ █ ▁ █
 
+```
 ## License
 
 Copyright © 2017 Jeff Rose
